@@ -1,0 +1,14 @@
+Jun 22 - 23:50
+
+Tryhackme:
+completed offensive security room and defensive security.
+also explored networking rooms.
+
+100daysOfPython:
+day05 in the 100daysofpython is a FOR loop session,
+i had learned to use for loops to loop tasks as many times s possible, and using the range function to range the amount of time i want to run a task.
+ also touched on the while loops used reeborgs world for practice.
+ 
+very product memoery refreshing session.
+
+end time. Jun 23 - 05:23
