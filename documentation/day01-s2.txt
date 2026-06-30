@@ -1,0 +1,38 @@
+# Day 1 - June 27, 2026
+
+## What I Learned
+
+### Linux / Terminal:
+- How to read files starting with `-` → `cat -- -file` or `cat < -file`
+- How to handle filenames with spaces → use quotes `"file name"`
+- `find` command with `-size` for searching by bytes
+- `ls -lh` for human readable sizes
+
+### Bandit Levels 1-6:
+- Level 1: calling filename starting with "-", 
+cmd = cat < "-filename"
+- Level 2: calling filename with spaces 
+cmd = cat -- "file name"
+- Level 3: calling hidden file
+cmd = use '.' before filename - cat .filename
+- Level 4: finding file by size.
+cmd = use find . -size 1000c - change c with file size, use +[sizec] to find files bigger that specified size, and -[sizec] for lesser.
+use find . -size +100c -size -1000c to find between 100-1000.
+- Level 5: finding human readable. use ls -lh/ -h
+- Level 6: using pipe to grep result from search
+
+
+
+## Challenges I Faced
+- i tried creating the exact overthewire file named --file name with space-- using what i had learned about calling filename with spaces but wasn't able to do that..yet
+- ...
+
+## Wins
+- Made it to Level 6
+- Understood SSH better
+- and using find...
+
+## Next Goals (Day 3)
+- overthewire lvl 7-14
+- 100DaysOfPython day 6-100
+ 

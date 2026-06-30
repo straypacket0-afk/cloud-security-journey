@@ -1,0 +1,22 @@
+- Date: Jun 28 
+- journey day : Day 2
+- session : S2
+
+- what i'm studying/topic:
+python practice - loops
+
+- challenges i faced:
+finding it hard using loops in general both "while" and "for"
+- if i solved them - how i solved them:
+i just made a bunch of challenge that involved both loops, ilterating through list, using range function, printing only even numbers from 1-20
+and so much more challenges, they are 15 of them and i have completed 9. 
+so far it has helped me understand using loops, especially the "for" loop.
+- win / progress:
+completed levels 1-9 of 15.
+- short note:
+- tomorrow's plan/goal:
+complete levels 10-15
+create a simple project with "while" and "for" loops
+understand how to "break" and "continue" when using the "while" loop
+- energy/mood
+surprised i was able to compplete most of the challenges with ease, especially the ones with math problems.

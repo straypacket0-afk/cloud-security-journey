@@ -1,0 +1,6 @@
+if user chose session 2 - 
+	add echo "Post..for visibility!!"
+and when they want to edn session bring up another echo
+	"Posted yet?? linkedin, X, git"
+and open all three socials
+

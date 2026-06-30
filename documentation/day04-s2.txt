@@ -1,0 +1,47 @@
+- Date: Jun 30
+
+- journey day: Day 04
+
+- session: S2
+
+
+- what i'm studying/topic:
+overthewire -  bandit 6-
+
+- challenges i faced:
+~bandit 6, password is somewhere in the system owned by user bandit7, group bandit6 and is exactly 33 bytes, at this point i didn't know how to use the find command effectively.
+~bandit8, i knew how to use the sort command but not all of its flags, and this challenge requires that i find the only line with no duplicate..
+~bandit9, finding human-readable in file.
+~bandit10, decoding base64
+- if i solved them - how i solved them:
+~ bandit 6, did some reseach on how to use te find command and it was almost easy.. find -type # for what ure looking for, directory or file
+-size for the size of the file/directory. -user, -group etc.
+to solve bandit6 i search from root "/" and used the exact command since its specified that its somewhere in the system, owned by bandit7 and group bandit6 and exactly 33 bytes.
+find / -user bandit7 -group bandit6 -size 33c.
+
+~bandit 7, says that password is inside a file with huge lines of text but is beside the word "millionth". 
+all i did was grep "millionth" in data.txt and the password is just right beside it.
+
+~bandit8, now password is the only line that has no duplicate inside the data.txt file. 
+i used sort data.txt to sort file first and then uniq -u
+
+~bandit9, password is one of the few human readable lines in data.txt and is proceeded by several "="
+used strings data.txt | grep "===" the multiple = was to narrow it down since it says proceeded by several "="
+
+~bandit10, decoding base64 encoded file, this one took more reseach but i was able to decode it using -base64 -d #filename.
+new concept i want to understand more.. 
+
+- win / progress:
+bandit 6-10
+
+- short note:
+new concept i'm gonna spend the whole week trying to leanr and understand
+
+
+- tomorrow's plan/goal:
+networking/ ipv6
+base64
+
+
+- energy/mood:
+hyped.....
